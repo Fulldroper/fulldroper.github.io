@@ -2,29 +2,24 @@
 
 # My Skills
 <div>
-  <img src="https://img.shields.io/badge/-cpp-blue" />
+  <img src="https://img.shields.io/badge/-cpp-6248d9" />
+  <img src="https://img.shields.io/badge/-Golang-659df7" />
+  <img src="https://img.shields.io/badge/-Java-d63a3a" />
+  <img src="https://img.shields.io/badge/-JavaScript-d6ce3a" />
+  <img src="https://img.shields.io/badge/-Node.js-49c932" />
+  <img src="https://img.shields.io/badge/-Phyton-225d9c" />
+  <img src="https://img.shields.io/badge/-PHP-272e87" />
+  <img src="https://img.shields.io/badge/-Vue.js-27914b" />
+  <img src="https://img.shields.io/badge/-TailwindCSS-2391c4" />
+  <img src="https://img.shields.io/badge/-Electron.js-1d3b52" />
+  <img src="https://img.shields.io/badge/-React-46bff2" />
+  <img src="https://img.shields.io/badge/-p5.js-f24671" />
+  <img src="https://img.shields.io/badge/-MongoDB-0f8a32" />
+  <img src="https://img.shields.io/badge/-SQL-0f5b91" />
 </div>
-
-CPP, Golang, Java, JS, node, Phyton, PHP, Vue.js, Tailwind, Electron.js, React, p5.js, MongoDB, SQL
 
 # My Stats
 <div style="display : flex; align-items : center">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fulldroper&theme=omni&hide_border=true&border_radius=15px"/>
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=fulldroper&theme=omni&hide_border=true&border_radius=15px"/>
 </div>
-
-
-<!--
-**Fulldroper/Fulldroper** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
