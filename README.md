@@ -1,6 +1,9 @@
 ### Hi there 👋
 
 # My Skills
+<div>
+  <img src="https://img.shields.io/badge/-cpp-blue" />
+</div>
 
 CPP, Golang, Java, JS, node, Phyton, PHP, Vue.js, Tailwind, Electron.js, React, p5.js, MongoDB, SQL
 
