@@ -29,6 +29,11 @@ body {
     color: #e8e6e3;
 }
 
+.backgroundfill {
+    background-color: #181a1b;
+    border-radius: 50%;
+}
+
 .hiden {
     display: none;
 }
