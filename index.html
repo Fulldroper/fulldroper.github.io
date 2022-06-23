@@ -7,13 +7,20 @@
     <title>📅 Fulldroper`s site</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class=".darkmode">
     <div class="body">
         <h1>Fulldroper`s personal site 
             <!-- <search>
                 <input type="text">
                 <img src="./src/MagnifyingGlass.svg" alt="">
             </search> -->
+            <div id="darkmode-switch">
+                <div>Night mode</div>
+                <label class="switch">
+                    <input id="dark-switch" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
         </h1>
         <!-- <nav>
             <div>🏠 Home</div>
@@ -27,6 +34,15 @@
             <div class="block">
                 <h3>🎓 Education</h3>
                 <div class="line">
+                    <img src="https://kitit.com.ua/wp-content/uploads/2018/12/cropped-logo_kit_w-1.png" width="64" height="64">
+                    <div>
+                        <a href="https://kitit.com.ua/">
+                            Computer technology training center 🔗
+                        </a> <br>
+                        Me studied at several faculties with the following areas: computer literacy, programming, 3D graphics and animation, computer logic and circuitry. <br>
+                    </div>
+                </div><br>
+                <div class="line">
                     <img src="https://www.kpi.kharkov.ua/ukr/wp-content/uploads/sites/2/2018/02/logo.png" width="64" height="64">
                     <div>
                         <a href="https://www.kpi.kharkov.ua/ukr/">
@@ -35,6 +51,17 @@
                         Faculty Computer and Information Technologies <br>
                         Specialty of Computer Engineering. Modern programming, mobile devices and computer games. <br>
                     </div>
+                </div>
+            </div>
+            <div class="block">
+                <h3>👑 Achievements</h3>
+                <div>
+                    From 2012 to 2014 he worked as an administrator in various online stores in Ukraine <br><br>
+                    From 2013 to 2021 he introduced a popular blog on technical sciences and programming <br><br>
+                    In 2015 he graduated from the school of computer technology "KIT" <br><br>
+                    In 2020 he received a bachelor's degree in technical sciences <br><br>
+                    <rl></rl> In 2021 he worked on a voluntary basis in the team of fashion developers for the game Garrys Mod, later another month he worked there as a UX \ UI designer <br><br>
+                    In 2022 he received a master's degree in computer engineering <br><br>
                 </div>
             </div>
             <div class="block">
@@ -61,14 +88,20 @@
                     <rl></rl>My last project was implemented in June 2022 and it was a service for controlling access and monetization of API services based on Deno.js + SQLite technology
                 </div>
             </div>
-        </div>
-        <div name="mail" class="content hiden">
-            <h2>Text me</h2>
-            <div class="col">
-                <input class="inputLogin" type="text" name="Name" placeholder="how to contact you?">
-                <textarea class="inputLogin" name="Text" cols="30" rows="10" placeholder="your text.."></textarea>
-                <div class="btn">
-                    📥 Send mail
+            <div class="block">
+                <h2 class="center">Links to other websites</h2>
+                <div class="block split">
+                    <div>
+                        <h3 class="center">📨 My contacts</h3>
+                        <p>telegram: t.me/full_droper</p>
+                        <p>discord: fd#6297</p>
+                        <p>email: full_droper@pm.me</p>
+                    </div>
+                    <div>
+                        <h3 class="center">🔗 Another</h3>
+                        <p>github: github.com/full_droper</p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
