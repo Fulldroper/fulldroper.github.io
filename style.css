@@ -10,12 +10,12 @@
 
 @font-face {
     font-family: "Grunwald";
-    src: url(./src/Grunwald.ttf);
+    src: url(./src/fonts/Grunwald.ttf);
 }
 
 @font-face {
     font-family: "ComicNeue";
-    src: url(./src/ComicNeue.ttf);
+    src: url(./src/fonts/ComicNeue.ttf);
 }
 
 body {
