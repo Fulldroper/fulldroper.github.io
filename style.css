@@ -8,6 +8,10 @@
     font-family: 'ComicNeue';
 }
 
+:root {
+    --description-pin-color: #434d58;
+}
+
 @font-face {
     font-family: "Grunwald";
     src: url(./src/fonts/Grunwald.ttf);
@@ -16,6 +20,26 @@
 @font-face {
     font-family: "ComicNeue";
     src: url(./src/fonts/ComicNeue.ttf);
+}
+
+.pins > div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pins > div > a > svg {
+    width: 350px;
+}
+
+.pins > div > a > svg > rect {
+    fill: rgba(0, 0, 0, 0);
+    stroke: #69696900;
+}
+.pins > div > a > svg > g > text, .pins > div > a > svg > g > g > g > g > text {
+    fill: var(--description-pin-color);
 }
 
 body {
@@ -31,6 +55,7 @@ body {
 .darkmode {
     background-color: #181a1b;;
     color: #e8e6e3;
+    --description-pin-color: rgb(212, 211, 211);
 }
 
 .backgroundfill {

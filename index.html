@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📅 Fulldroper`s site</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>📅 Fulldroper`s site</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="darkmode">
@@ -18,6 +18,7 @@
                 </label>
             </div>
         </h1>
+        <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fulldroper&layout=compact" /> -->
         <div name="home" class="content">
             <h2 class="center">About me </h2>
             <div class="block">
@@ -106,6 +107,10 @@
                     <rl></rl>My last project was implemented in June 2022 and it was a service for controlling access and monetization of API services based on Deno.js + SQLite technology
                 </div>
             </div>
+            <div class="content pins">
+                <h3>📌 Pinned git repositories</h3>
+                <div id="pinsLoader"></div>
+            </div>
             <div class="content">
                 <h3>✨ Technology Stack</h3>
                 <div>
@@ -148,6 +153,7 @@
             Copyright 2012 - 2022 by <a href="">@full_droper</a>
         </footer>
     </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>
