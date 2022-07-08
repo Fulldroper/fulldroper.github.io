@@ -4,9 +4,9 @@ window.onload = () => {
   const loadPins = async arr => {
     const pinsLoader = document.querySelector("#pinsLoader")
     for (const value of arr) {
-      const svg = await axios.get(`https://fd-kofuku.herokuapp.com/?q=https://github-readme-stats.vercel.app/api/pin/?username=fulldroper%amprepo=${value}`)
+      const svg = await fetch(`https://fd-kofuku.herokuapp.com/?q=https://github-readme-stats.vercel.app/api/pin/?username=fulldroper%amprepo=${value}`)
       pinsLoader.innerHTML += `<a href="https://github.com/Fulldroper/${value}">${
-        svg.data
+        await svg.text()
       }</a>`
     }
   };
