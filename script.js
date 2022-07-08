@@ -11,14 +11,14 @@ window.onload = () => {
     }
   };
   changeTheme(theme.checked);
-  // loadPins([
-  //     'cors-proxy',
-  //     'tocken-session',
-  //     'file-server',
-  //     'Sierpinski-triangle',
-  //     'caesarCipher',
-  //     'color-convertor'
-  // ]);
+  loadPins([
+      'cors-proxy',
+      'tocken-session',
+      'file-server',
+      'Sierpinski-triangle',
+      'caesarCipher',
+      'color-convertor'
+  ]);
   document.querySelector("#dark-switch").onchange = e => {
     changeTheme(e.target.checked);
   }
