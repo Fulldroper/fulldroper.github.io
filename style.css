@@ -147,12 +147,18 @@ div.body {
     max-width: 750px;
 }
 
-div.body>h1 {
+div.title {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     text-align: center;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div.title > h1 {
     font-family: 'Grunwald';
 }
 
@@ -285,4 +291,10 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+@media screen and (max-width: 520px) {
+    div.title {
+        flex-direction: column; 
+    }
 }
