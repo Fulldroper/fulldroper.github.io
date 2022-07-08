@@ -34,6 +34,12 @@
     width: 350px;
 }
 
+#pinsLoader:empty {
+    height: 10px;
+    margin: 0 auto 0 50%;;
+    content:  url("./src/img/loading.svg");
+}
+
 .pins > div > a > svg > rect {
     fill: rgba(0, 0, 0, 0);
     stroke: #69696900;
