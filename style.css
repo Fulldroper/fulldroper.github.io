@@ -104,6 +104,10 @@ a {
     color: #3391ff;
 }
 
+/* a::after {
+    content: "🔗";
+} */
+
 .col {
     display: flex;
     flex-direction: column;

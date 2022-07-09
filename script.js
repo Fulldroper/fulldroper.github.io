@@ -1,4 +1,10 @@
 window.onload = () => {
+  
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-DYEDQ902BV');
+
   const changeTheme = bool => (document.body || document.querySelector("body")).classList[bool ? "add" : "remove"]("darkmode");
   const theme = document.querySelector("#dark-switch");
   const loadPins = async arr => {
