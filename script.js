@@ -25,7 +25,5 @@ window.onload = () => {
       'caesarCipher',
       'color-convertor'
   ]);
-  document.querySelector("#dark-switch").onchange = e => {
-    changeTheme(e.target.checked);
-  }
+  document.querySelector("#dark-switch").onchange = e => changeTheme(e.target.checked);
 }

@@ -104,6 +104,27 @@ a {
     color: #3391ff;
 }
 
+.bageContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.badge {
+    width: max-content;
+    padding: 2px 5px 2px 5px;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+    border-bottom: #397f0a solid 1px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.badge:hover {
+    border-bottom: #53b811 solid 1px;
+}
+
 /* a::after {
     content: "🔗";
 } */
