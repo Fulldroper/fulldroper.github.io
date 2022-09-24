@@ -22,6 +22,32 @@
     src: url(./src/fonts/ComicNeue.ttf);
 }
 
+.active-proj {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.active-proj > div {
+    margin: 10px;
+    color: var(--description-pin-color);
+}
+
+.active-proj > img {
+    width: 200px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 19px 40px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 2px 19px 40px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 19px 40px 0px rgba(0, 0, 0, 0.3);
+    border-bottom: #397f0a solid 1px;
+    border-top: #397f0a solid 1px;
+}
+
+.active-proj > img:hover {
+    border-bottom: #53b811 solid 1px;
+    border-top: #53b811 solid 1px;
+}
+
 .pins > div {
     display: flex;
     flex-direction: row;
