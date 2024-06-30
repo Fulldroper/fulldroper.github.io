@@ -1,0 +1,150 @@
+---
+import SocialList from "@/components/SocialList.astro";
+import PostPreview from "@/components/blog/PostPreview.astro";
+import { getAllPosts, sortMDByDate } from "@/data/post";
+import PageLayout from "@/layouts/Base.astro";
+
+const MAX_POSTS = 10;
+const allPosts = await getAllPosts();
+const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
+
+const cactusTech: { desc: string; href: string; title: string }[] = [
+    {
+        "desc": "A powerful, compiled programming language with simple syntax.",
+        "href": "https://golang.org",
+        "title": "Golang"
+    },
+    {
+        "desc": "A popular programming language for building server-side applications.",
+        "href": "https://nodejs.org",
+        "title": "Node.js"
+    },
+    {
+        "desc": "A JavaScript library for building user interfaces.",
+        "href": "https://reactjs.org",
+        "title": "React"
+    },
+    {
+        "desc": "A front-end framework for building single-page applications.",
+        "href": "https://vuejs.org",
+        "title": "Vue.js"
+    },
+    {
+        "desc": "A utility-first CSS framework for rapidly building custom designs.",
+        "href": "https://tailwindcss.com",
+        "title": "TailwindCSS"
+    },
+    {
+        "desc": "A JavaScript runtime built on Chrome's V8 JavaScript engine.",
+        "href": "https://deno.land",
+        "title": "Deno.js"
+    },
+    {
+        "desc": "A JavaScript library for creating graphics and interactive content.",
+        "href": "https://p5js.org",
+        "title": "p5.js"
+    },
+    {
+        "desc": "A powerful, flexible, and scalable NoSQL database.",
+        "href": "https://www.mongodb.com",
+        "title": "MongoDB"
+    },
+    {
+        "desc": "A versatile SQL database system for various applications.",
+        "href": "https://www.mysql.com",
+        "title": "MySQL"
+    },
+    {
+        "desc": "An in-memory data structure store, used as a database, cache, and message broker.",
+        "href": "https://redis.io",
+        "title": "Redis"
+    },
+    {
+        "desc": "A general-purpose programming language known for its performance and efficiency.",
+        "href": "https://isocpp.org",
+        "title": "C++"
+    },
+    {
+        "desc": "A high-level programming language known for its readability and simplicity.",
+        "href": "https://python.org",
+        "title": "Python"
+    },
+    {
+        "desc": "A powerful, cross-platform JavaScript library for building desktop applications.",
+        "href": "https://www.electronjs.org",
+        "title": "Electron.js"
+    },
+    {
+        "desc": "A modern programming language for performance, safety, and concurrency.",
+        "href": "https://www.rust-lang.org",
+        "title": "Rust"
+    },
+    {
+        "desc": "A JavaScript library for building bots for Discord.",
+        "href": "https://discord.js.org",
+        "title": "Discord.js"
+    },
+    {
+        "desc": "A modern site generator that uses modern JavaScript frameworks.",
+        "href": "https://astro.build",
+        "title": "Astro.js"
+    },
+    {
+        "desc": "A new JavaScript runtime like Node or Deno.",
+        "href": "https://bun.sh",
+        "title": "Bun.js"
+    },
+    {
+        "desc": "A JavaScript library for creating and exploring machine learning in the browser.",
+        "href": "https://ml5js.org",
+        "title": "ml5.js"
+    },
+    {
+        "desc": "A framework for building smaller, faster, and more secure desktop applications.",
+        "href": "https://tauri.studio",
+        "title": "Tauri"
+    }
+];
+---
+
+<PageLayout meta={{ title: "Home" }}>
+	<section>
+		<h1 class="title mb-6">Welcome to my portfolio-blog site</h1>
+		<p class="mb-4">
+			I am a computer engineer with extensive experience in web development, programming, and technical project management. My education includes a master's degree in computer engineering from the National Technical University "Kharkiv Polytechnic Institute." Over the years, I have developed multiple web applications, including a travel site, a movie hosting site, and various Discord bots. My tech stack includes Node.js, PHP, MongoDB, and more. I have also worked as a UX/UI designer and contributed to several open-source projects.
+		</p>
+		<SocialList />
+	</section>
+	<section aria-label="Blog post list" class="mt-16">
+		<h2 class="title mb-4 text-xl">Posts</h2>
+		<ul class="space-y-4">
+			{
+				allPostsByDate.map((p) => (
+					<li class="grid gap-2 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2">
+						<PostPreview post={p} />
+					</li>
+				))
+			}
+		</ul>
+	</section>
+	<section class="mt-16">
+		<h2 class="title mb-4 text-xl">Technology Stack</h2>
+		<dl class="space-y-4">
+			{
+				cactusTech.map(({ desc, href, title }) => (
+					<div class="flex flex-col gap-2 sm:flex-row">
+						<dt>
+							<span class="flex">
+								<a class="cactus-link" href={href} rel="noopener noreferrer" target="_blank">
+									{title}
+								</a>
+								:
+							</span>
+						</dt>
+						<dd>{desc}</dd>
+					</div>
+				))
+			}
+		</dl>
+	</section>
+</PageLayout>
