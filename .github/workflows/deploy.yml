@@ -26,6 +26,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '16'
+          package-manager: pnpm@5.0.0
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
