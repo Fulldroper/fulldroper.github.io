@@ -228,5 +228,5 @@ export default {
 ### Handling Media Content
   Uploading and displaying media content within posts.
   Managing file uploads and handling form data.
-
+## Conclusion
 This project provides practical experience in creating a comprehensive front-end application for a blogging platform, integrating with a backend API, and managing state and user authentication.

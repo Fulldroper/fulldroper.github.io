@@ -6,8 +6,8 @@ updatedDate: 01 Jul 2024
 tags: ["draft"]
 draft: true
 ---
-- https://github.com/Fulldroper/blog-vue-native
-- https://github.com/Fulldroper/route-roller
+- ~~https://github.com/Fulldroper/blog-vue-native~~
+- ~~https://github.com/Fulldroper/route-roller~~
 - https://github.com/Fulldroper/discord.bot.ephemeral-voice
 - https://github.com/Fulldroper/propozicii_page
 - https://github.com/Fulldroper/ogp
