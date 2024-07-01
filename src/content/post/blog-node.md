@@ -195,5 +195,5 @@ fastify.get('/media/:uid/:mid/', async (req, res) => {
   - Creating a streaming media server for video playback.
   - Implementing HLS streams in the media server to enable streaming functionality.
   - Working with byte ranges to provide functionality similar to HLS servers.
-
+## Conclusion
 This project provides practical experience in creating a comprehensive web server with media functionality and ensuring a high level of security.
