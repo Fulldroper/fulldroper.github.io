@@ -3,7 +3,7 @@ title: "Discord Bot AutoCleaner"
 description: "A Discord bot that periodically cleans text channels to maintain order or anonymity"
 publishDate: "02 Jun 2023"
 updatedDate: "06 Jun 2023"
-tags: ["node.js", "discord", "bot", "cleaning", "automation"]
+tags: ["node.js", "discord", "bot"]
 ---
 The purpose of the project was to create a Discord bot that periodically cleans text channels to maintain order or anonymity in the channel.
 

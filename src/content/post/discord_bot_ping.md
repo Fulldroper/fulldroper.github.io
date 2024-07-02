@@ -3,7 +3,7 @@ title: "Discord Bot Ping"
 description: "A Discord bot that creates temporary mentions of users in text channels to draw attention to content"
 publishDate: "21 Feb 2023"
 updatedDate: "22 Feb 2023"
-tags: ["node.js", "discord", "bot", "notifications"]
+tags: ["node.js", "discord", "bot"]
 ---
 The purpose of the project was to create a Discord bot that generates temporary mentions of users in text channels to attract attention to content.
 

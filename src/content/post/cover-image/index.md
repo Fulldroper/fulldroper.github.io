@@ -1,8 +1,8 @@
 ---
 title: "Test post"
 description: "test description for post................................................"
-publishDate: "22 Feb 2023"
-updatedDate: 22 Jan 2024
+publishDate: "01 Jul 2024"
+updatedDate: 01 Jul 2024
 coverImage:
   src: "./cover.png"
   alt: "Astro build wallpaper"

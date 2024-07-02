@@ -3,7 +3,7 @@ title: "Discord Survey Bot"
 description: "A Discord bot designed for conducting convenient surveys among server members."
 publishDate: "18 Jan 2023"
 updatedDate: "19 Jan 2023"
-tags: ["node.js", "Discord", "bot", "survey"]
+tags: ["node.js", "Discord", "bot"]
 ---
 The purpose of this project is to create a Discord bot that facilitates easy surveys for server members.
 

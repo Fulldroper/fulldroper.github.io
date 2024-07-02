@@ -3,7 +3,7 @@ title: "Discord Bot Tickets"
 description: "A Discord bot that adds the ability to create tickets for review and threads for ease of use and moderation"
 publishDate: "22 Jun 2022"
 updatedDate: "22 Jun 2022"
-tags: ["node.js", "discord", "bot", "tickets", "moderation"]
+tags: ["node.js", "discord", "bot", "moderation"]
 ---
 The purpose of the project was to create a Discord bot that adds the ability to create tickets for review and threads for ease of use and moderation.
 
