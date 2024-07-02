@@ -6,7 +6,7 @@ updatedDate: 01 Jul 2024
 coverImage:
   src: "./cover.png"
   alt: "Astro build wallpaper"
-tags: ["test", "image"]
+tags: ["test"]
 ogImage: "/social-card.png"
 draft: true
 ---
