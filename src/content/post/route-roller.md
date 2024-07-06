@@ -3,7 +3,7 @@ title: "Route roller"
 description: "The project aims to study the functioning of static routes and to implement this mechanism practically. The application, built with JavaScript and..."
 publishDate: "06 Aug 2022"
 updatedDate: 01 Jul 2024
-tags: ["javascript", "routing", "express.js", "HTML", "DOM"]
+tags: ["javascript", "routing", "express.js", "HTML"]
 ---
 ## Objective
 

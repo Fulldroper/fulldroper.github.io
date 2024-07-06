@@ -9,8 +9,7 @@ draft: true
 
 - https://github.com/Fulldroper/opytyvania_page
 - https://github.com/Fulldroper/propozicii_page
-- https://github.com/Fulldroper/quickstore
-- https://github.com/Fulldroper/uuc-games
+
 - https://github.com/Fulldroper/ogp
 - https://github.com/Fulldroper/p2p
 - https://github.com/Fulldroper/rezka_api
@@ -37,7 +36,6 @@ draft: true
 - https://github.com/Fulldroper/rp-scripter
 - https://github.com/Fulldroper/Docs
 - https://github.com/Fulldroper/ts_server
-- https://github.com/Fulldroper/uuc-games-src
 - https://github.com/Fulldroper/macros-binder
 - https://github.com/Fulldroper/yt-player
 - https://github.com/Fulldroper/caesarCipher
@@ -45,15 +43,21 @@ draft: true
 - https://github.com/Fulldroper/hat-back-end
 - https://github.com/Fulldroper/minecraft.oauth-server
 - https://github.com/Fulldroper/discord.register
+
 - https://github.com/Fulldroper/MidJourney-Styles-and-Keywords-Reference
+
 - https://github.com/Fulldroper/discord.bot.air-raid-alert
 - https://github.com/Fulldroper/og-brige-telegram
+
 - https://github.com/Fulldroper/cors-proxy
+
 - https://github.com/Fulldroper/discord.bot.propozicii
 - https://github.com/Fulldroper/discord.bot-administrator
+
 - https://github.com/Fulldroper/WebRTC-File-Sharing
 - https://github.com/Fulldroper/WebRTC-Camera-Share
 - https://github.com/Fulldroper/WebRTC-Chat
+
 - https://github.com/Fulldroper/sadsadas
 - https://github.com/Fulldroper/fd-discord.js
 - https://github.com/Fulldroper/joke-gen
