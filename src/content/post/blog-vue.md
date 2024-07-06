@@ -3,7 +3,7 @@ title: "Blog Vue"
 description: "The project aims to create a web application using Vue.js for a blogging platform that supports user authentication, post creation, and media content handling.."
 publishDate: "26 Jul 2022"
 updatedDate: 01 Jul 2024
-tags: ["vue.js", "Axios", "api", "HLS"]
+tags: ["vue.js", "Axios", "api", "HLS", "token-session"]
 ---
 ## Objective
 
