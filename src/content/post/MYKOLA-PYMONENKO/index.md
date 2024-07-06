@@ -3,7 +3,7 @@ title: "MYKOLA PYMONENKO Website"
 description: "Website developed to promote the work of the artist MYKOLA PYMONENKO, in collaboration with Mintleaf UX/UI Design"
 publishDate: "26 Feb 2023"
 updatedDate: "04 Feb 2023"
-tags: ["Node.js", "Web Development", "UX/UI Design"]
+tags: ["Node.js", "Web Development", "UX-UI Design"]
 ---
 The purpose of this project is to create a website to promote the work of MYKOLA PYMONENKO, in collaboration with UX/UI Design by Mintleaf, to share knowledge about the artist and his works.
 
