@@ -3,7 +3,7 @@ title: "Discord Ephemeral Voice Bot"
 description: "A Discord bot for dynamic voice channels management using native Discord interface and permissions synchronization."
 publishDate: "08 Aug 2022"
 updatedDate: "02 Jul 2024"
-tags: ["Discord", "bot", "Voice Channels", "Node.js"]
+tags: ["Discord", "bot", "Node.js"]
 ---
 The purpose of the project is to create a Discord bot that manages dynamic voice channels. It is useful for creating temporary voice channels that can be automatically managed and deleted, ensuring efficient use of server resources.
 

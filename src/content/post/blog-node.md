@@ -3,7 +3,7 @@ title: "Fastify Blog Server"
 description: "The project aims to create a web server with API support for user authentication, media file upload, and media content streaming.."
 publishDate: "26 Jul 2022"
 updatedDate: 01 Jul 2024
-tags: ["node.js", "mongoDB", "token-session", "api", "HLS analog"]
+tags: ["node.js", "mongoDB", "token-session", "api", "HLS"]
 ---
 ## Objective
 

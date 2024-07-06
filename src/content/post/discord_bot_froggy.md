@@ -3,7 +3,7 @@ title: "Discord Bot Froggy"
 description: "A Discord bot designed for convenient and high-quality music listening from audio services in a voice channel"
 publishDate: "03 Feb 2023"
 updatedDate: "02 Jul 2024"
-tags: ["node.js", "discord", "bot", "music"]
+tags: ["node.js", "discord", "bot"]
 ---
 The purpose of the project was to create a Discord bot for convenient and high-quality music listening from audio services in a voice channel.
 
