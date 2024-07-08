@@ -4,6 +4,7 @@ description: "Implementation of token-session authentication using Node.js and W
 publishDate: "08 Aug 2021"
 updatedDate: "07 Aug 2021"
 tags: ["Node.js", "WebSocket", "token-session", "mongodb"]
+pin: true
 ---
 The purpose of this project is to demonstrate an implementation of token-session authentication using Node.js and WebSockets.
 

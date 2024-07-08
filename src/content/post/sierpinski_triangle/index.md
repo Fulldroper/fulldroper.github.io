@@ -3,7 +3,8 @@ title: "Sierpinski Triangle"
 description: "A project to recreate the fractal and gain skills in simulating physical processes"
 publishDate: "21 Aug 2021"
 updatedDate: "21 Aug 2021"
-tags: ["javascript", "fractal", "simulation", "Sierpinski triangle"]
+tags: ["javascript", "simulation"]
+pin: true
 ---
 The purpose of the project was to recreate the Sierpinski Triangle fractal and gain skills in simulating physical processes. It also serves as an example for visualization, which can be viewed [here](https://fulldroper.github.io/Sierpinski-triangle/).
 

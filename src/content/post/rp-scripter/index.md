@@ -3,7 +3,7 @@ title: "RP Scripter"
 description: "Website for generating looped scripts for the Source game engine with a single command bind"
 publishDate: "21 Nov 2019"
 updatedDate: "08 Jun 2020"
-tags: ["Node.js", "Web Development", "Game Scripting"]
+tags: ["Node.js", "web dev"]
 ---
 The purpose of this project is to create a website that allows users to generate looped scripts for the Source game engine using a single button to bind commands, simplifying gameplay.
 

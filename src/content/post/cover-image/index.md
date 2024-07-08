@@ -1,14 +1,13 @@
 ---
 title: "Test post"
 description: "test description for post................................................"
-publishDate: "01 Jul 2024"
-updatedDate: 01 Jul 2024
+publishDate: "01 Jul 2000"
+updatedDate: 01 Jul 2000
 coverImage:
   src: "./cover.png"
   alt: "Astro build wallpaper"
 tags: ["test"]
 ogImage: "/social-card.png"
-draft: true
 ---
 ## This is a H2 Heading
 

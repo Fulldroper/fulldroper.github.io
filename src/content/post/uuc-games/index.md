@@ -3,7 +3,7 @@ title: "UUC Community Website"
 description: "Website for the Ukrainian Speaking Community created with Astro.js, inspired by Discord"
 publishDate: "26 Feb 2023"
 updatedDate: "26 Feb 2023"
-tags: ["Node.js", "Astro.js", "routing"]
+tags: ["Node.js", "Astro.js", "routing", "web dev"]
 ---
 The purpose of this project is to create a website for the "Єдина Україномовна Спільнота" (United Ukrainian Speaking Community) using Astro.js, with a design inspired by Discord.
 

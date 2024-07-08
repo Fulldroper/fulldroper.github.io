@@ -3,7 +3,7 @@ title: "Morze Code Translator"
 description: "Web page for translating text to Morse code with customizable symbols"
 publishDate: "14 Jul 2021"
 updatedDate: "13 Jul 2021"
-tags: ["JavaScript", "Morse Code"]
+tags: ["JavaScript", "data hiding"]
 ---
 The purpose of this project is to create a web page for translating text to Morse code, allowing users to replace the dot and dash characters with any symbol of their choice.
 
