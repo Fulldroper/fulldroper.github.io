@@ -24,6 +24,15 @@ export function sortMDByDate(posts: CollectionEntry<"post">[]) {
 	});
 }
 
+/** sort post by date (by siteConfig.sortPostsByUpdatedDate), desc.*/
+export function sortPinnedMDByDate(posts: CollectionEntry<"post">[]) {
+	return posts.filter(p => p.data.pin).sort((a, b) => {
+		const aDate = getPostSortDate(a).valueOf();
+		const bDate = getPostSortDate(b).valueOf();
+		return bDate - aDate;
+	});
+}
+
 /** groups posts by year (based on option siteConfig.sortPostsByUpdatedDate), using the year as the key
  *  Note: This function doesn't filter draft posts, pass it the result of getAllPosts above to do so.
  */

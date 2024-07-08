@@ -1,12 +1,14 @@
 ---
 import SocialList from "@/components/SocialList.astro";
 import PostPreview from "@/components/blog/PostPreview.astro";
-import { getAllPosts, sortMDByDate } from "@/data/post";
+import { getAllPosts, sortMDByDate, sortPinnedMDByDate } from "@/data/post";
 import PageLayout from "@/layouts/Base.astro";
 
 const MAX_POSTS = 10;
+const MAX_PINNED = 6;
 const allPosts = await getAllPosts();
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
+const allPinnedPostsByDate = sortPinnedMDByDate(allPosts).slice(0, MAX_PINNED);
 
 const cactusTech: { desc: string; href: string; title: string }[] = [
     {
@@ -114,6 +116,18 @@ const cactusTech: { desc: string; href: string; title: string }[] = [
 			I am a computer engineer with extensive experience in web development, programming, and technical project management. My education includes a master's degree in computer engineering from the National Technical University "Kharkiv Polytechnic Institute." Over the years, I have developed multiple web applications, including a travel site, a movie hosting site, and various Discord bots. My tech stack includes Node.js, PHP, MongoDB, and more. I have also worked as a UX/UI designer and contributed to several open-source projects.
 		</p>
 		<SocialList />
+	</section>
+	<section aria-label="Blog post list" class="mt-16">
+		<h2 class="title mb-4 text-xl">Pinned</h2>
+		<ul class="space-y-4">
+			{
+				allPinnedPostsByDate.map((p) => (
+					<li class="grid gap-2 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2">
+						<PostPreview post={p} />
+					</li>
+				))
+			}
+		</ul>
 	</section>
 	<section aria-label="Blog post list" class="mt-16">
 		<h2 class="title mb-4 text-xl">Posts</h2>
