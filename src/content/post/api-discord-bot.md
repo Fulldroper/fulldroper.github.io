@@ -1,6 +1,6 @@
 ---
 title: "API Discord Bot Client"
-description: "Client for Discord bots, similar to a regular client, for bot moderation"
+description: "Api for Discord bots client, similar to a regular client, for bot moderation"
 publishDate: "26 Feb 2023"
 updatedDate: "26 Feb 2023"
 tags: ["Node.js", "Discord Bot", "Moderation"]
