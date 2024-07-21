@@ -4,6 +4,7 @@ description: "The project aims to create a web application using Vue.js for a bl
 publishDate: "26 Jul 2022"
 updatedDate: 01 Jul 2024
 tags: ["vue.js", "Axios", "api", "HLS", "token-session"]
+pin: true
 ---
 ## Objective
 

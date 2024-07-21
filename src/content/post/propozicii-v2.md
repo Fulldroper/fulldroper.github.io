@@ -4,6 +4,7 @@ description: "Updated version of the proposal bot for more convenient and user-f
 publishDate: "21 Feb 2023"
 updatedDate: "22 Feb 2023"
 tags: ["Node.js", "Discord Bot", "Proposals"]
+pin: true
 ---
 The purpose of this project is to update the proposal bot to provide a more convenient and user-friendly experience.
 

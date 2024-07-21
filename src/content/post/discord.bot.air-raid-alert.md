@@ -4,6 +4,7 @@ description: "A Discord bot for sending private messages about air raid alerts i
 publishDate: "18 Mar 2023"
 updatedDate: "02 Jan 2023"
 tags: ["Node.js", "Discord Bot", "Air Raid Alerts", "Redis"]
+pin: true
 ---
 The purpose of this project is to create a Discord bot that sends private messages about air raid alerts in Ukraine, leveraging a specialized API and a Redis database.
 

@@ -4,6 +4,7 @@ description: "NPM package for quick deployment of a Discord bot with a simplifie
 publishDate: "06 Mar 2023"
 updatedDate: "19 Jan 2024"
 tags: ["Node.js", "Discord Bot", "NPM Package"]
+pin: true
 ---
 The purpose of this project is to create an NPM package for the rapid deployment of a Discord bot, providing a lightweight solution for bot creation and management. More details can be found on the [NPM page](https://www.npmjs.com/package/fd-discord).
 

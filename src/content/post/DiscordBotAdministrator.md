@@ -4,6 +4,7 @@ description: "Facilitates Discord server moderation by providing a dedicated cli
 publishDate: "30 Apr 2023"
 updatedDate: "30 Apr 2023"
 tags: ["node.js", "nuxt.js", "Discord", "bot management"]
+pin: true
 ---
 The goal of this project was to facilitate the moderation of Discord servers by providing a dedicated client for bot management and moderation tasks.
 
