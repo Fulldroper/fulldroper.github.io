@@ -17,11 +17,7 @@ pin: true
 - https://fulldroper.github.io/WebRTC-p5-Game/
 
 ---------------------------
-- https://github.com/Fulldroper/fd-discord.js
-- https://github.com/Fulldroper/api.discord-bot
 - https://github.com/Fulldroper/telegram.bot.raffle
-- https://github.com/Fulldroper/propozicii-v2
-- https://github.com/Fulldroper/discord.bot.propozicii
 -----------------------------
 
 - https://github.com/Fulldroper/minecraft
@@ -46,3 +42,9 @@ pin: true
 - https://github.com/Fulldroper/WebRTC-Chat
 - https://github.com/Fulldroper/INERTIA-AND-PARTIAL-GRAVITY
 - https://github.com/Fulldroper/discord.bot-administrator
+---------------------------
+- https://www.npmjs.com/package/fd-desc-changer
+- https://www.npmjs.com/package/fd-dsite
+- https://www.npmjs.com/package/fd-dcc
+- https://www.npmjs.com/package/fd-redis-api
+- https://www.npmjs.com/package/fd-importer
