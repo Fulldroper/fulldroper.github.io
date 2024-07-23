@@ -43,3 +43,20 @@ pin: true
 - https://www.npmjs.com/package/fd-dcc
 - https://www.npmjs.com/package/fd-redis-api
 - https://www.npmjs.com/package/fd-importer
+--------------------------------------
+- https://github.com/Fulldroper/telegram.bot-engine
+- https://github.com/Fulldroper/phaser-game
+- https://github.com/Fulldroper/perlin-noize
+- https://github.com/Fulldroper/minecraft-npc-bot-engine
+- https://github.com/Fulldroper/lagidna-ukrainizacia
+- https://github.com/Fulldroper/fd-minecraft-launcher
+- https://github.com/Fulldroper/kozulia
+- https://github.com/Fulldroper/p2p-linker
+- https://github.com/Fulldroper/rust-discord-client-package
+- https://github.com/Fulldroper/ml5-screen-capture
+- https://github.com/Fulldroper/rust-discord-lootboxes-opener
+- https://github.com/Fulldroper/tauri-template
+- https://github.com/Fulldroper/net-coding-node.js
+- https://github.com/Fulldroper/makrobinder-v2
+- https://github.com/Fulldroper/foreach-utf-8-simbols
+- https://github.com/Fulldroper/multidomen-site-mirorer
