@@ -23,7 +23,7 @@ ogImage: "/social-card.png"
 
 ---
 
---aa
+---
 
 ---
 
@@ -158,6 +158,9 @@ Right aligned columns
 Image in the same folder: `src/content/post/markdown-elements/logo.png`
 
 ![Astro theme cactus logo](./cover.png)
+
+
+![Astro theme cactus logo](./Sprite-0001.png)
 
 Image in the aliased assets folder: `src/assets/about-astro.png`
 
