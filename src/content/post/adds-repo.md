@@ -20,7 +20,6 @@ pin: true
 
 - https://github.com/Fulldroper/minecraft
 - https://github.com/Fulldroper/cmd-blink
-- https://github.com/Fulldroper/file-server
 - https://github.com/Fulldroper/caesarCipher
 - https://github.com/Fulldroper/og-brige-telegram
 - https://github.com/Fulldroper/sadsadas
