@@ -59,3 +59,4 @@ pin: true
 - https://github.com/Fulldroper/makrobinder-v2
 - https://github.com/Fulldroper/foreach-utf-8-simbols
 - https://github.com/Fulldroper/multidomen-site-mirorer
+- https://github.com/Fulldroper/pwd-saver
