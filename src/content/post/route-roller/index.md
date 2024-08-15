@@ -8,7 +8,7 @@ tags: ["javascript", "routing", "HTML", "web dev"]
 ## Objective
 
 The project aims to study the functioning of static routes and to implement this mechanism practically. The application, built with JavaScript and Express, serves as a simple example of how to manage static routes efficiently.
-##Repository
+## Repository
 
 You can find the project repository on GitHub: https://github.com/Fulldroper/route-roller
 ## Main Components
