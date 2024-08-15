@@ -17,7 +17,7 @@ You can find the project repository on GitHub: https://github.com/Fulldroper/rou
 ### Static Route Handling
   Implementation of static route mechanisms to serve HTML, CSS, and JavaScript files.
 ## How It Works
-### erver Setup
+### Server Setup
   The server is set up using Express.js and configured to handle static routes.
 ```js
 // server.js
