@@ -36,13 +36,25 @@ export const menuLinks: { path: string; title: string }[] = [
 		title: "Home",
 	},
 	{
-		path: "/about/",
-		title: "About",
-	},
-	{
 		path: "/posts/",
 		title: "Blog",
 	},
+	{
+		path: "/posts/price/",
+		title: "Services"
+	},
+	{
+		path: "https://fulldroper-github-io.translate.goog/?_x_tr_sl=auto&_x_tr_tl=uk",
+		title: "Translate"
+	},
+	{
+		path: "/about/",
+		title: "About",
+	},
+	// {
+	// 	path: "https://send.monobank.ua/jar/6rzLbugt2A",
+	// 	title: "🍵"
+	// }
 ];
 
 // https://expressive-code.com/reference/configuration/
