@@ -37,7 +37,7 @@ Consulting on technologies listed below and Process
 
 
 ### Technologies Available for Consultation
-| **Technology**                    | **Price (USD per hour)**                 |
+| **Technology**                    | **Price (UAH per hour)**                 |
 |-----------------------------------|------------------------------------------|
 | **Node.js**                       | ₴70 / hour                               |
 | **Vue.js**                        | ₴70 / hour                               |
@@ -65,7 +65,7 @@ Training on technologies listed below and Process
 
 ### Technologies Available for Training
 
-| **Technology**                    | **Price (USD per hour)**                 |
+| **Technology**                    | **Price (UAH per hour)**                 |
 |-----------------------------------|------------------------------------------|
 | **Node.js**                       | ₴200 / hour                              |
 | **Vue.js**                        | ₴200 / hour                              |
