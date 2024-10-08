@@ -100,5 +100,5 @@ Training on technologies listed below and Process
 - **Tauri**: A framework for building smaller, faster, and more secure desktop applications.
 
 ## Contact for Orders
-To place an order or inquire about services, please reach out via [full_droper@pm.me](mailto:full_droper@pm.me) or contact me through [your preferred contact method].
+To place an order or inquire about services, please reach out via [full_droper@pm.me](mailto:full_droper@pm.me).
 
