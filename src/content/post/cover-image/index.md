@@ -5,6 +5,9 @@ publishDate: "01 Jul 2000"
 updatedDate: "01 Jul 2000"
 tags: ["test"]
 draft: true
+coverImage:
+  src: "./cover.jpg"
+  alt: "Cover image"
 ---
 ## This is a H2 Heading
 
