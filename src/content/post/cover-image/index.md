@@ -9,7 +9,7 @@ coverImage:
   src: "./cover.jpg"
   alt: "Cover image"
 ---
-## This is a H2 Heading
+## This is a H2 Heading2
 
 ### This is a H3 Heading
 
