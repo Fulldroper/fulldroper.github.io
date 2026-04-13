@@ -36,7 +36,7 @@ _This is italic text_
 ~~Strikethrough~~
 
 ## Quotes
-
+![image-1776051223148.gif](./image-1776051223148.gif)
 "Double quotes" and 'single quotes'
 
 ## Blockquotes
