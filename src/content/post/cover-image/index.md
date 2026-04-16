@@ -76,7 +76,7 @@ Ordered
 
 4. You can use sequential numbers...
 5. ...or keep all the numbers as `1.`
-
+![image-1776378950779.jpeg](./image-1776378950779.jpeg)
 Start numbering with offset:
 
 57. foo
